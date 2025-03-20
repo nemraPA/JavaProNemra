@@ -12,7 +12,7 @@ public class Main {
         double pounds = convKgsPounds(kgs);
         double kilos = convPoundsToKgs(pnds);
         System.out.println("Result is " + pounds + "pounds and "
-        + kilos + " kgs.");
+                + kilos + " kgs.");
 
     }
 
