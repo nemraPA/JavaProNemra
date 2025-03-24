@@ -11,8 +11,7 @@ public class Main {
         double mil = 12;
         double miles = convKlmMiles(klm);
         double kilometer = convMilesKlm(mil);
-        System.out.println("Result is " + miles + " miles and "
-                + kilometer + " klm.");
+        System.out.printf("Result is %4.2f miles  and  %4.2f klm.", miles, kilometer);
 
     }
 
