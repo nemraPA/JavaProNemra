@@ -7,8 +7,8 @@ public class Converter {
         System.out.println("Version 3.0");
 
         double inFhrn = 17;
-        double сelsius = convFhrnCels(inFhrn);
-        System.out.printf("Result is %4.2f сelsius.", сelsius);
+        double celsius = convFhrnCels(inFhrn);
+        System.out.printf("Result is %4.2f сelsius.", celsius);
     }
 
     private static double convFhrnCels(double inFhrn) {
