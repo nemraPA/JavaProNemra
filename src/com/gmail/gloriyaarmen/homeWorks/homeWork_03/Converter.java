@@ -7,11 +7,18 @@ public class Converter {
         System.out.println("Version 3.0");
 
         double inFhrn = 17;
+        double inCels = 7;
         double celsius = convFhrnCels(inFhrn);
-        System.out.printf("Result is %4.2f сelsius.", celsius);
+        double fahrenheit = convCelsFhrn(inCels);
+        System.out.printf("Result is %4.2f сelsius  and   %4.2f fahrenheit.", celsius, fahrenheit);
     }
 
     private static double convFhrnCels(double inFhrn) {
         return (inFhrn - 32) * 5/9;
     }
+
+    private static double convCelsFhrn(double inCels) {
+        return inCels * 9/5 + 32;
+    }
+
 }
