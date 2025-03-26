@@ -5,5 +5,13 @@ public class Converter {
     public static void main(String[] args) {
         System.out.println("App for measures converting.");
         System.out.println("Version 3.0");
+
+        double inFhrn = 17;
+        double сelsius = convFhrnCels(inFhrn);
+        System.out.printf("Result is %4.2f сelsius.", сelsius);
+    }
+
+    private static double convFhrnCels(double inFhrn) {
+        return (inFhrn - 32) * 5/9;
     }
 }
