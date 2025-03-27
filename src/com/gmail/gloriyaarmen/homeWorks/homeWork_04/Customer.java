@@ -2,19 +2,19 @@ package com.gmail.gloriyaarmen.homeWorks.homeWork_04;
 
 public class Customer {
 
-    public final String name;
-    public final String phone;
+    private final String name;
+    private final String phone;
 
     public Customer(String name, String phone) {
-        this.name = "Tom";
-        this.phone = "555 123-8596";
+        this.name = name;
+        this.phone = phone;
     }
 
     public String getName() {
-        return name;
+        return "Tom";
     }
 
     public String getPhone() {
-        return phone;
+        return "555 123-8596";
     }
 }
