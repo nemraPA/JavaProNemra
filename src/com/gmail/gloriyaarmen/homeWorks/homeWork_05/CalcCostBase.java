@@ -6,6 +6,6 @@ public class CalcCostBase {
 
     // Базовий розрахунок вартості товару
     public double calcCost(Product product) {
-        return Product.getQuota() * product.getPrice();
+        return product.getQuota() * product.getPrice();
     }
 }

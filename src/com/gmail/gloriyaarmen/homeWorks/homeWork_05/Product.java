@@ -2,7 +2,7 @@ package com.gmail.gloriyaarmen.homeWorks.homeWork_05;
 
 public class Product {
     String name;
-    static int quota;
+    int quota;
     double price;
 
     public Product(String name, int quota, double price) {
@@ -15,7 +15,7 @@ public class Product {
         return name;
     }
 
-    public static int getQuota() {
+    public int getQuota() {
         return quota;
     }
 
