@@ -7,7 +7,7 @@ package com.gmail.gloriyaarmen.homeWorks.homeWork_05;
 public class CalcCostDelivery extends CalcCostBase {
 
     // Вартість доставки
-    private final static double deliveryPrice = 20;
+    private final static double deliveryPrice = 7;
 
     // Розрахунок вартості товару,
     // з урахуванням вартості доставки
