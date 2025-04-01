@@ -10,7 +10,7 @@ public class Main {
     }
 
     private static double getBalance() {
-        return 1100.00; // Наявні кошти на рахунку
+        return 1000.00; // Наявні кошти на рахунку
     }
 
     private static double getAmount() {
