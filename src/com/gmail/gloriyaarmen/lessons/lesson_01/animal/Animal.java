@@ -4,10 +4,10 @@ public class Animal {
     String name;
     int age;
 
-    public Animal() {
-        this.name = "default name";
-        this.age = -1;
-    }
+//    public Animal() {
+//        this.name = "default name";
+//        this.age = -1;
+//    }
 
     public Animal(String name, int age) {
         this.name = name;
