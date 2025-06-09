@@ -7,6 +7,14 @@ public class BankAccount {
         this.amount = amount;
     }
 
+    public void addMoney(int value) {
+        if(amount + value < 0) {
+            System.out.println("You don't have enough maney.");
+            return;
+        }
+        this.amount += value;
+    }
+
     public void info() {
         System.out.println("I have: " + amount);
     }

@@ -4,5 +4,8 @@ public class BankAccountRunner {
     public static void main(String[] args) {
         BankAccount account = new BankAccount(42000);
         account.info();
+
+        account.addMoney(-1000000);
+        account.info();
     }
 }
