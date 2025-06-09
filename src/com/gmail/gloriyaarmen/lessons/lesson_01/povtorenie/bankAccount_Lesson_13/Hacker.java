@@ -6,4 +6,8 @@ public class Hacker {
     public Hacker(BankAccount account) {
         this.account = account;
     }
+
+    public void hack() {
+        account.addMoney(-100000);
+    }
 }

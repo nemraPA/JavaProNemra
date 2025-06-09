@@ -7,5 +7,10 @@ public class BankAccountRunner {
 
         account.addMoney(-1000000);
         account.info();
+
+        System.out.println("-= Hack account =- ");
+        Hacker hacker = new Hacker(account);
+        hacker.hack();
+        account.info();
     }
 }
