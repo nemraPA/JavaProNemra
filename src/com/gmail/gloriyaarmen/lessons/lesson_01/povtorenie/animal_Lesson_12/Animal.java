@@ -1,4 +1,4 @@
-package com.gmail.gloriyaarmen.lessons.lesson_01.povtorenie.animal;
+package com.gmail.gloriyaarmen.lessons.lesson_01.povtorenie.animal_Lesson_12;
 
 public class Animal {
     String name;
