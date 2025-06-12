@@ -2,9 +2,20 @@ package com.gmail.gloriyaarmen.lessons.lesson_01.povtorenie.bankAccount_Lesson_1
 
 public class BankAccount {
     private int amount;
+    private int cardNumber;
 
     public BankAccount(int amount) {
         this.amount = amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+
+
+    public int getAmount() {
+        return amount;
     }
 
     public void addMoney(int value) {

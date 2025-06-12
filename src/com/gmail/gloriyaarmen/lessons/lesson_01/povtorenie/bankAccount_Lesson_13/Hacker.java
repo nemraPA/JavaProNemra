@@ -12,6 +12,7 @@ public class Hacker {
     }
 
     public void hack() {
+//        account.amount -= 100001;
         account.addMoney(-100000);
 //        info();
     }

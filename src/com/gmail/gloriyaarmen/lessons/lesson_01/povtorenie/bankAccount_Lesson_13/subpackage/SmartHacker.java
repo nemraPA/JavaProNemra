@@ -12,4 +12,8 @@ public class SmartHacker extends Hacker {
     public SmartHacker(BankAccount account) {
         super(account);
     }
+
+    public void smartInfo() {
+        info();
+    }
 }
