@@ -4,6 +4,8 @@ public class BankAccountRunner {
     public static void main(String[] args) {
         BankAccount account = new BankAccount(42000);
         account.info();
+        boolean blocked = account.isBlocked();
+        System.out.println("Account is blocked - " + blocked);
 
         account.addMoney(-1000000);
         account.info();
