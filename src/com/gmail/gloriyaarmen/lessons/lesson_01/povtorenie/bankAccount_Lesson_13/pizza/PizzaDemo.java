@@ -2,14 +2,16 @@ package com.gmail.gloriyaarmen.lessons.lesson_01.povtorenie.bankAccount_Lesson_1
 
 public class PizzaDemo {
     public static void main(String[] args) {
-        AbstractPizza[] pizzas = {
+        Pizza[] pizzas = {
                 new DiabloPizza(),
                 new MargarittaPizza(),
                 new DiabloPizza()//,
 //                new Pizza("unknow PIZZA")
         };
-        for (AbstractPizza pizza : pizzas) {
+        for (Pizza pizza : pizzas) {
             pizza.make();
+            System.out.println("Pizza name is: " + ((DiabloPizza) pizza).getName());
+//            pizza.getName();
         }
     }
 }
