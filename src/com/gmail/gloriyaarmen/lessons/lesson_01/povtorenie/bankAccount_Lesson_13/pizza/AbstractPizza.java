@@ -1,9 +1,9 @@
 package com.gmail.gloriyaarmen.lessons.lesson_01.povtorenie.bankAccount_Lesson_13.pizza;
 
-public abstract class Pizza {
+public abstract class AbstractPizza {
     private String name;
 
-    public Pizza(String name) {
+    public AbstractPizza(String name) {
         this.name = name;
     }
 

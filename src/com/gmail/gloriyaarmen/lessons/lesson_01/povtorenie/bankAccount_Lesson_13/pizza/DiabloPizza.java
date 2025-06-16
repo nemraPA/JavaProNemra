@@ -1,6 +1,6 @@
 package com.gmail.gloriyaarmen.lessons.lesson_01.povtorenie.bankAccount_Lesson_13.pizza;
 
-public class DiabloPizza extends Pizza {
+public class DiabloPizza extends AbstractPizza {
     public DiabloPizza() {
         super("Diablo");
     }
